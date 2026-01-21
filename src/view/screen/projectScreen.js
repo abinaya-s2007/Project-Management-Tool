@@ -332,14 +332,14 @@ const styles = StyleSheet.create({
 
   bottomBar: {
     paddingVertical: 12,
-    bottom: 30, // Keeping original offset
+    bottom: 30, 
     flexDirection: 'row',
     justifyContent: 'space-around',
     width: '100%',
   },
   bottomItem: {
     alignItems: 'center',
-    // marginHorizontal: 22, // Removed fixed margin
+    // marginHorizontal: 22,
   },
   bottomIconBox: {
     width: 55,
