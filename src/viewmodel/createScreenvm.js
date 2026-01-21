@@ -44,7 +44,7 @@ export const useCreateScreenVm = () => {
       team: members,
     };
 
-    dispatch(addProject(project)); // 👈 THIS IS THE KEY LINE
+    dispatch(addProject(project));
 
     setprojectname('');
     setmembers([]);
