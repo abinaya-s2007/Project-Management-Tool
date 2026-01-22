@@ -120,7 +120,6 @@ export default ProfileScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // padding: 20, // Handled by scrollview/card margins
   },
 
   back: {
@@ -140,8 +139,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff67',
     borderRadius: 20,
     padding: 30,
-    // flex: 0.5, // Removed flex to let content size drive height
-    // marginTop: 80, // Handled dynamically
   },
 
   cardContent: {
